@@ -58,7 +58,7 @@ sudo mysql
 # Instalacion de CURL
 sudo apt update && sudo apt install curl
 #Instalacion de PHP
-sudo apt update && sudo apt install php libapache2-mod-php php-mysql php-curl
+sudo apt update && sudo apt install php libapache2-mod-php php-mysql php-curl php-cli
 #Testear la instalacion de PHP desde la consola
 php -version
 
