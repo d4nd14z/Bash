@@ -1,0 +1,3 @@
+#!/bin/bash
+clear
+sudo tail -100 /var/log/apache2/error.log

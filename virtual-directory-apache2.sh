@@ -29,6 +29,10 @@ sudo echo -e "<VirtualHost *:80>\nDocumentRoot /var/www/html/devlab.com\nServerN
 sudo a2ensite d2studios.com
 sudo a2ensite devlab.com
 
+#Para deshabilitar directorios virtuales se utiliza 
+#sudo a2dissite d1studios.com
+#sudo a2dissite devlab.com
+
 #Reiniciar el servidor apache
 sudo systemctl reload apache2
 
